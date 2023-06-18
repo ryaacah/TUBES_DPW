@@ -22,4 +22,14 @@ class C_Hotel extends CI_Controller {
 	{
 		$this->load->view('home');
 	}
+
+	public function login()
+	{
+		$this->load->view('V_Login');
+	}
+
+	public function admin()
+	{
+		$this->load->view('admin');
+	}
 }

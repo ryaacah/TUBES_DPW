@@ -74,8 +74,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#menu">Room</a></li>
           <li><a class="nav-link scrollto" href="#specials">Specials</a></li>
-          <li><a class="nav-link scrollto" href="#events">Events</a></li>
-          <li><a class="nav-link scrollto" href="V_Login.php">Login</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo site_url ('C_Hotel/admin');?>">Admin</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo site_url ('C_Hotel/login');?>">Login</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
