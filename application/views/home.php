@@ -410,6 +410,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
               <div class="validate"></div>
             </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="teks" class="form-control" name="payment" id="payment" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter your payment metode">
+              <div class="validate"></div>
+            </div>
           </div>
           <div class="form-group mt-3">
             <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
