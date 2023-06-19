@@ -60,6 +60,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
   </div>
 
+  </div>
+
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
@@ -407,11 +409,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+              <input type="number" class="form-control" name="people" id="people" placeholder="many people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="teks" class="form-control" name="payment" id="payment" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter your payment metode">
+              <input type="teks" class="form-control" name="payment" id="payment" placeholder="payment" data-rule="minlen:1" data-msg="Please enter your payment metode">
               <div class="validate"></div>
             </div>
           </div>
@@ -768,7 +770,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 A108 Adam Street <br>
                 NY 535022, USA<br><br>
                 <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                <strong>Email:</strong> halyynime@gmail.com<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -779,6 +781,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>
+
+          
 
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
@@ -791,7 +795,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <!-- <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -800,16 +804,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
             </ul>
-          </div>
+          </div> -->
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+          <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
 
-          </div>
+          </div> -->
 
         </div>
       </div>
