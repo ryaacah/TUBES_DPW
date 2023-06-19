@@ -424,7 +424,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="error-message"></div>
             <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
           </div>
-          <div class="text-center"><button type="submit">Book a Table</button></div>
+          <div class="text-center"><button type="submit">Book a Room</button></div>
         </form>
 
       </div>
